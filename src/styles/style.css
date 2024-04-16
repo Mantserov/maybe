@@ -160,13 +160,13 @@ textarea {
 }
 .checkbox__button:checked + label {
   background-color: rgb(35, 90, 222);
-  background-image: url(/src/images/icons/checkbox.png);
+  background-image: url(../images/icons/checkbox.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 75%;
 }
 .checkbox__button:checked + label + p + div {
-  background-image: url(/src/images/icons/unlocked.png);
+  background-image: url(../images/icons/unlocked.png);
   background-size: 89%;
 }
 .checkbox__label {
@@ -180,7 +180,7 @@ textarea {
   margin-left: 105px;
   height: 40px;
   width: 40px;
-  background-image: url(/src/images/icons/locked.png);
+  background-image: url(../images/icons/locked.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 75%;
