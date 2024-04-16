@@ -1,0 +1,53 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #ececf2;
+  border-radius: 20px;
+  color: #3a3a3a;
+  padding: 32px 48px;
+
+  &__title {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 32px;
+  }
+
+  &__label {
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  &__input {
+    border: 1px solid #cfcfde;
+    border-radius: 10px;
+    height: 40px;
+    width: 333px;
+    margin-block: 10px 16px;
+    padding-left: 24px;
+  }
+
+  &__question {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    & > a {
+      color: rgba(35, 90, 222, 1);
+    }
+  }
+
+  &__robot {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(207, 207, 222, 1);
+    padding: 24px 28px;
+    margin-top: 16px;
+  }
+
+  &__image {
+    height: 72px;
+    width: 72px;
+  }
+}

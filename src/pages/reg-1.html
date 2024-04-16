@@ -14,7 +14,7 @@
   </head>
   <body class="page__body">
     <header class="header">
-      <a class="header__logo-link" href="#">
+      <a class="header__logo-link" href="../../index.html">
         <img class="header__logo" src="/src/images/logo.png" alt="Logo" />
       </a>
 
@@ -35,43 +35,52 @@
 
     <main class="main">
       <div class="main__content">
-        <div class="main__form form">
-          <h1 class="form__title">Welcome!</h1>
-          <form class="form__form" action="">
-            <label class="form__label" for="name"> Name & Surname </label>
-            <br />
-            <input class="form__input" id="name" />
-            <br />
-            <label class="form__label" for="email"> Email </label>
-            <br />
-            <input class="form__input" type="email" id="email" />
-            <br />
-            <label class="form__label" for="password"> Password </label>
-            <br />
-            <input class="form__input" type="password" id="password" />
-            <br />
-            <div class="form__robot">
-              <div class="checkbox checkbox--robot">
-                <input class="checkbox__button" type="checkbox" id="checkbox" />
-                <label class="checkbox__label" for="checkbox"></label>
-                <p>I`m not a robot</p>
-                <div id="checkbox-lock" class="checkbox__lock"></div>
+        <div class="main__form">
+          <div class="form">
+            <h1 class="form__title">Welcome!</h1>
+            <form class="form__form" action="">
+              <label class="form__label" for="name"> Name & Surname </label>
+              <br />
+              <input class="form__input" id="name" />
+              <br />
+              <label class="form__label" for="email"> Email </label>
+              <br />
+              <input class="form__input" type="email" id="email" />
+              <br />
+              <label class="form__label" for="password"> Password </label>
+              <br />
+              <input class="form__input" type="password" id="password" />
+              <br />
+              <div class="form__robot">
+                <div class="checkbox checkbox--robot">
+                  <input
+                    class="checkbox__button"
+                    type="checkbox"
+                    id="checkbox"
+                  />
+                  <label class="checkbox__label" for="checkbox"></label>
+                  <p>I`m not a robot</p>
+                  <div id="checkbox-lock" class="checkbox__lock"></div>
+                </div>
               </div>
-            </div>
-            <br />
+              <br />
 
-            <a href="/src/pages/reg-2.html" class="form__button button"
-              >Sign Up</a
-            >
+              <a href="/src/pages/reg-2.html" class="form__button button"
+                >Sign Up</a
+              >
 
-            <div class="form__question">
-              <p>Already have an account?</p>
-              <a href="/index.html">Sign In</a>
-            </div>
-          </form>
+              <div class="form__question">
+                <p>Already have an account?</p>
+                <a href="/index.html">Sign In</a>
+              </div>
+            </form>
+          </div>
         </div>
-        <img class="main__image" src="/src//images/step-2.png" alt="" />
+        <img class="main__image" src="/src/images/step-2.png" alt="" />
       </div>
     </main>
+    <footer class="footer">
+      <img class="footer__slider" src="/src/images/icons/step-1-slider.png" alt="Step" />
+    </footer>
   </body>
 </html>

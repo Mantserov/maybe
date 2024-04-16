@@ -1,0 +1,39 @@
+.checkbox {
+  display: flex;
+  align-items: center;
+
+  &__button {
+    display: none;
+
+    &:checked + label {
+      background-color: rgba(35, 90, 222, 1);
+      background-image: url(/src/images/icons/checkbox.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 75%;
+    }
+
+    &:checked + label + p + div {
+      background-image: url(/src/images/icons/unlocked.png);
+      background-size: 89%;
+    }
+  }
+
+  &__label {
+    height: 24px;
+    width: 24px;
+    border: 1px solid rgba(207, 207, 222, 1);
+    border-radius: 5px;
+    margin-right: 16px;
+  }
+
+  &__lock {
+    margin-left: 105px;
+    height: 40px;
+    width: 40px;
+    background-image: url(/src/images/icons/locked.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 75%;
+  }
+}
