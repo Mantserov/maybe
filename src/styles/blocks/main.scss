@@ -1,6 +1,10 @@
 .main {
   margin-top: 75px;
 
+  &--less-space {
+    margin-top: 0px;
+  }
+
   &__content {
     display: grid;
     grid-template-columns: repeat(12, 1fr);

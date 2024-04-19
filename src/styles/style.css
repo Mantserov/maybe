@@ -85,6 +85,9 @@ textarea {
 .main {
   margin-top: 75px;
 }
+.main--less-space {
+  margin-top: 0px;
+}
 .main__content {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -112,8 +115,12 @@ textarea {
   border-radius: 20px;
   color: #3a3a3a;
   padding: 32px 48px;
+  grid-column: 2/7;
+  margin-bottom: 50px;
+  position: relative;
 }
 .form__title {
+  text-align: center;
   font-weight: 500;
   font-size: 20px;
   margin-bottom: 32px;
@@ -150,6 +157,22 @@ textarea {
   height: 72px;
   width: 72px;
 }
+.form__cant-sign-in {
+  text-decoration: none;
+  font-size: 14px;
+  color: rgb(35, 90, 222);
+  position: absolute;
+  text-align: center;
+  top: 105%;
+}
+.form__slider {
+  height: 24px;
+  position: absolute;
+  top: 105%;
+}
+.form__slider--less-space {
+  top: 115%;
+}
 
 .checkbox {
   display: flex;
@@ -177,6 +200,7 @@ textarea {
   margin-right: 16px;
 }
 .checkbox__lock {
+  transition: all 100ms;
   margin-left: 105px;
   height: 40px;
   width: 40px;
@@ -192,6 +216,7 @@ textarea {
   width: 100%;
   background-color: #235ade;
   height: 48px;
+  border: none;
   border-radius: 10px;
   line-height: 48px;
   text-decoration: none;
@@ -205,21 +230,6 @@ textarea {
 }
 .button:active {
   background-color: rgb(27, 71, 177);
-}
-
-.footer__cant-sign-in {
-  text-decoration: none;
-  font-size: 14px;
-  color: rgb(35, 90, 222);
-  position: absolute;
-  top: 90%;
-  left: 24%;
-}
-.footer__slider {
-  width: 366px;
-  position: absolute;
-  top: 90%;
-  left: 17%;
 }
 
 /*# sourceMappingURL=style.css.map */

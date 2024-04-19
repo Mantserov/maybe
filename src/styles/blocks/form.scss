@@ -6,8 +6,12 @@
   border-radius: 20px;
   color: #3a3a3a;
   padding: 32px 48px;
+  grid-column: 2/7;
+  margin-bottom: 50px;
+  position: relative;
 
   &__title {
+    text-align: center;
     font-weight: 500;
     font-size: 20px;
     margin-bottom: 32px;
@@ -49,5 +53,24 @@
   &__image {
     height: 72px;
     width: 72px;
+  }
+
+  &__cant-sign-in {
+    text-decoration: none;
+    font-size: 14px;
+    color: rgba(35, 90, 222, 1);
+    position: absolute;
+    text-align: center;
+    top: 105%;
+  }
+
+  &__slider {
+    height: 24px;
+    position: absolute;
+    top: 105%;
+
+    &--less-space {
+      top: 115%;
+    }
   }
 }

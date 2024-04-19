@@ -28,6 +28,7 @@
   }
 
   &__lock {
+    transition: all 100ms;
     margin-left: 105px;
     height: 40px;
     width: 40px;
