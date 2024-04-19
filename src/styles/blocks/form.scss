@@ -29,6 +29,10 @@
     width: 333px;
     margin-block: 10px 16px;
     padding-left: 24px;
+
+    &:hover {
+      border-color: rgba(166, 188, 242, 1);
+    }
   }
 
   &__question {
@@ -62,6 +66,11 @@
     position: absolute;
     text-align: center;
     top: 105%;
+    transition: transform 150ms;
+
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 
   &__slider {

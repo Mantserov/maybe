@@ -25,6 +25,10 @@
     border: 1px solid rgba(207, 207, 222, 1);
     border-radius: 5px;
     margin-right: 16px;
+
+    &:hover {
+      border-color: rgba(166, 188, 242, 1);
+    }
   }
 
   &__lock {
